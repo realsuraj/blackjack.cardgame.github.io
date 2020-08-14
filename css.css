@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-5{
+    width: 75%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   border: 1px solid black;
+   margin: 0 auto;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2, .flex-blackjack-row-3
+{
+   width: 100%;
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2
+{
+    
+    color: #ffffff;
+    background: url(https://www.macmillandictionary.com/external/slideshow/full/Green_full.png) center;
+}
+
+
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    height: 330px;
+    text-align: center;
+    flex: 1;
+}
+
+.flex-blackjack-row-1 img{
+   width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div
+{
+    border: 1px solid black;
+}
+
+table , th, td
+{
+    padding: 5px;
+    border: 1px solid black;
+}
